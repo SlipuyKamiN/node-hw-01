@@ -3,7 +3,7 @@ const {
   getContactById,
   removeContact,
   addContact,
-} = require("./db");
+} = require("./db/contacts");
 const { Command } = require("commander");
 const program = new Command();
 program
